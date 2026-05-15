@@ -71,6 +71,7 @@ a:hover{ text-decoration: underline; text-decoration-color: rgba(11, 15, 26, 0.2
 .brand-logo{
   display: block;
   width: auto;
+  margin-top: -2px; /* Fine-tune vertical centering */
 }
 
 .nav{
