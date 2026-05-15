@@ -12,11 +12,11 @@
 
   --container: 1120px;
 
-  --grad-1: radial-gradient(1200px 800px at 20% 10%, rgba(167, 139, 250, 0.22), transparent 55%);
+  --grad-1: radial-gradient(1200px 800px at 20% 10%, rgba(79, 70, 229, 0.22), transparent 55%);
   --grad-2: radial-gradient(1000px 700px at 75% 15%, rgba(59, 130, 246, 0.18), transparent 55%);
   --grad-3: radial-gradient(900px 650px at 55% 70%, rgba(34, 197, 94, 0.14), transparent 55%);
 
-  --highlight-color: #7C3AED;
+  --highlight-color: #4F46E5;
 }
 
 *{ box-sizing: border-box; }
@@ -44,7 +44,7 @@ a:hover{ text-decoration: underline; text-decoration-color: rgba(11, 15, 26, 0.2
 }
 
 .section.soft{
-  background: linear-gradient(180deg, rgba(167, 139, 250, 0.10), rgba(59, 130, 246, 0.06), rgba(34, 197, 94, 0.08));
+  background: linear-gradient(180deg, rgba(79, 70, 229, 0.10), rgba(59, 130, 246, 0.06), rgba(34, 197, 94, 0.08));
 }
 
 .site-header{
@@ -68,18 +68,9 @@ a:hover{ text-decoration: underline; text-decoration-color: rgba(11, 15, 26, 0.2
   align-items: center;
   gap: 10px;
 }
-.brand.small .brand-name{ font-size: 14px; }
-.brand-name{
-  font-weight: 650;
-  letter-spacing: 0.2px;
-}
-
-.logo{
-  width: 22px;
-  height: 22px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, rgba(167, 139, 250, 0.9), rgba(59, 130, 246, 0.75), rgba(34, 197, 94, 0.7));
-  box-shadow: 0 6px 18px rgba(59,130,246,0.18);
+.brand-logo{
+  display: block;
+  width: auto;
 }
 
 .nav{
@@ -118,7 +109,7 @@ a:hover{ text-decoration: underline; text-decoration-color: rgba(11, 15, 26, 0.2
 .orb-1{
   left: -180px;
   top: -200px;
-  background: rgba(167, 139, 250, 0.32);
+  background: rgba(79, 70, 229, 0.32);
 }
 .orb-2{
   right: -220px;
@@ -225,7 +216,7 @@ h1{
   flex-direction: column;
   gap: 14px;
   background:
-    radial-gradient(700px 500px at 20% 0%, rgba(167, 139, 250, 0.20), transparent 55%),
+    radial-gradient(700px 500px at 20% 0%, rgba(79, 70, 229, 0.20), transparent 55%),
     radial-gradient(700px 500px at 80% 10%, rgba(59, 130, 246, 0.14), transparent 55%),
     radial-gradient(700px 500px at 50% 80%, rgba(34, 197, 94, 0.12), transparent 55%);
 }
@@ -308,7 +299,7 @@ h1{
   height: 100%;
   width: 74%;
   border-radius: 999px;
-  background: linear-gradient(90deg, rgba(167,139,250,0.9), rgba(59,130,246,0.85), rgba(34,197,94,0.8));
+  background: linear-gradient(90deg, rgba(79, 70, 229, 0.9), rgba(59, 130, 246, 0.85), rgba(34, 197, 94, 0.8));
   transition: width 900ms ease;
 }
 
@@ -576,7 +567,7 @@ h2{
   /* gradientfarver (justér frit) */
   --g1: #00D2FF;          /* start (0%) */
   --g2: #7CFFB2;          /* midt */
-  --g3: #B56CFF;          /* slut (ved progress) */
+  --g3: #4F46E5;          /* slut (ved progress) */
 
   width: var(--size);
   height: var(--size);
@@ -721,7 +712,7 @@ h2{
 .hk-phone__inner{
   font-family: var(--hk-font);
   background:
-    radial-gradient(800px 600px at 20% 0%, rgba(99, 102, 241, 0.10), transparent 55%),
+    radial-gradient(800px 600px at 20% 0%, rgba(79, 70, 229, 0.10), transparent 55%),
     radial-gradient(800px 600px at 80% 10%, rgba(37, 99, 235, 0.10), transparent 55%),
     radial-gradient(800px 600px at 50% 90%, rgba(16, 185, 129, 0.08), transparent 55%),
     var(--hk-bg);
